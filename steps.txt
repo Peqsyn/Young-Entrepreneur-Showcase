@@ -1,0 +1,11 @@
+-- create a new repository on cmd --
+echo "# Young-Entrepreneur-Showcase" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Peqsyn/Young-Entrepreneur-Showcase.git
+git push -u origin master
+
+--pushing to an existing repo from cmd--
+git remote add origin https://github.com/Peqsyn/Young-Entrepreneur-Showcase.git
+git push -u origin master
